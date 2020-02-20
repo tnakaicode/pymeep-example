@@ -37,7 +37,7 @@ sim = mp.Simulation(cell_size=cell,
 
 # add sources
 sim.sources = [mp.Source(mp.GaussianSource(fcen, fwidth=df),
-               mp.Hz, mp.Vector3())]
+                         mp.Hz, mp.Vector3())]
 
 # run until sources are finished (and no later)
 sim._run_sources_until(0, [])

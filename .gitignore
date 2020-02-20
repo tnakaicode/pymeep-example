@@ -12,6 +12,7 @@ build/*
 # Doc
 *.pdf
 *.docx
+*.h5
 tex2pdf*/*
 
 #tmp
